@@ -1,0 +1,126 @@
+/* CSS - iServeStyles.css */
+
+/* reset */
+
+@font-face {
+    font-family: 'EBE';
+    src: url('fonts/EthBlackEthon.ttf');
+	}
+*	{
+    box-sizing: border-box;
+	}
+body	{
+	margin: 0px;
+	padding: 0px;
+	}
+#wrapper {
+	width:		100%;
+	margin:		0px;
+	padding:	0px;
+	}
+#about	{
+	border:				1px solid #FF8900;
+	border-radius:		4px;
+	display:				inline-block;
+	margin:				10px 10px 20px 10px;
+	padding:			2px;
+	vertical-align:		top;
+	width:				500px;
+	}
+#banner	{
+	/*background: 		url(images/digital.png) center repeat-x;*/
+	overflow:			auto;
+	padding:			0px;
+	width:				100%;
+	opacity:			10;
+	}
+#banner-text	{
+    position:		relative;
+	text-align:		center;
+	vertical-align: center;
+	}
+.box	{
+	border:				1px solid #FF8900;
+	border-radius:		4px;
+	display:			inline-block;
+	float:				center-left;
+	margin:				10px 10px 20px 10px;
+	padding:			2px;
+	vertical-align:		top;
+	width:				200px;
+	}
+#contact	{
+	background-color:	#FFFFFF;
+	border:				1px solid #FF8900;
+	border-radius:		4px;
+	display:			inline-block;
+	margin:				10px 10px 20px 10px;
+	padding:			2px;
+	text-align:			left;
+	vertical-align:		top;
+	width:				500px;
+	}
+#EBEFont	{
+	font-family: EBE;
+	}
+#footer	{
+	/*border-bottom:	1px solid #FF8900;
+	border-radius:	20px;
+	border-top:		1px solid #FF8900;*/
+	margin-top:		5px;
+	margin-left:	auto;
+	margin-right:	auto;
+	text-align:		center;
+	width:			410px;
+	}
+#logo	{
+	background: 		url(images/IconLeftBigResolution.png) no-repeat;
+	background-size: 	250px 51px;
+	margin:				0px 0px 10px 30%;
+	width: 				250px;
+	height: 			51px;
+	position:			relative;
+	top:				20px;
+	}
+#navbar	{
+	font-family:		EBE;
+	list-style-type: 	none;
+	margin: 			10px 10px 10px 50%;
+	padding: 			0px;
+	text-align:			right;
+	position:			relative;
+	top:				-10px;
+	right:				20%;
+	}
+#navbar li	{
+	background-color: 	#FFFFFF;
+	display:			inline;
+	}
+#navbar li a	{
+	background-color: 	#FFFFFF;
+	border-right:		1px solid #FF8900;
+	border-radius:		4px;
+	border-top:			1px solid #FF8900;
+	color: 				#FF8900;
+	display: 			inline;
+	font-weight: 		bold;
+	font-size: 			20px;
+	margin: 			25px 10px 0px 10px;
+	padding: 			5px;
+	text-decoration: 	none;
+	text-align: 		center;
+	width: 				100px;
+	}
+#navbar li a:hover	{
+	background-color:	#FF8900;
+	border-radius:		4px;
+	color:				#FFFFFF;	
+	}
+hr				{
+	display:	block;
+	height:		1px;
+	border:		0;
+	border-top:	1px solid #FF8900;
+	margin:		1em 0;
+	padding:	0;
+	}
